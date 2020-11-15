@@ -1325,7 +1325,7 @@ public class SystemController extends BaseController {
 			j.setSuccess(false);
 			logger.info(b.getMessage());
 		}
-    	logger.info("-----systemController/filedeal.do------------"+msg);
+    	logger.info("-----systemController/ftpUploader.do------------"+msg);
 		j.setMsg(msg);
         return j;
     }
